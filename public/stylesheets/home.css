@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627123435/BCM/hyosun-rosy-ko-5-l6nP3nT4I-unsplash_z4z521-min_m28amf.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+.cover-container {
+    max-width: 60vw;
+}
+
+p {
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+
+.btn-danger, .btn-danger:active, .btn-danger:visited {
+    background-color: rgb(129, 1, 1) !important;
+}
+.btn-danger:hover {
+    background-color: rgb(202, 197, 198) !important;
+    color: rgb(129, 1, 1) !important;
+}
+
+#fadingAff {
+    animation: fadeInAnimation ease 6s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
