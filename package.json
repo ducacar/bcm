@@ -8,7 +8,7 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dusan Gardinovacki",
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.9.2",
