@@ -14,15 +14,8 @@ body {
 
 .header-container {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     background-color: rgb(202, 197, 198);
-}
-
-.card-title {
-    border-top-left-radius: 0.3rem;
-    border-top-right-radius: 0.3rem;
-    border-bottom-right-radius: 0.3rem;
-    border-bottom-left-radius: 0.3rem;
 }
 
 
@@ -47,15 +40,11 @@ p {
     text-align: justify;
     margin-left: 6.6rem;
     margin-right: 6.6rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
-p.card-text {
-    padding: 0%;
-    margin: 0%;
-    font-weight: bolder;
-}
+
 
 #TransBtn {
     border-color: rgba(164,188,213,255);
@@ -63,6 +52,8 @@ p.card-text {
     border-style: solid;
     box-shadow:0px 0px 10px 0px rgb(0 0 0 / 50%);
     color: rgb(129, 1, 1);
+    font-weight: bold;
+    text-shadow: 2rem;
 
 }
 
@@ -95,12 +86,6 @@ h5.card-title {
     justify-content: start;
 }
 
-.nav-link.btn.btn-lg:hover{ 
-    background-color: rgb(129, 1, 1);
-    border-radius: 10%;
-    color: white;
-}
-
 a span {
     max-width: 0;
     -webkit-transition: max-width 1s;
@@ -115,6 +100,12 @@ a:hover span {
     max-width: 12rem;
   }
 
+.nav-link.btn.btn-lg:hover{ 
+    background-color: rgb(129, 1, 1);
+    border-radius: 10%;
+    color: white;
+}  
+
 .nav-link.btn.btn-lg {
     font-size: 2rem;
     color: rgba(123,21,23,255);
@@ -125,7 +116,7 @@ a:hover span {
 }
 
 .navbar-toggler-icon{
-    background-color: rgb(129, 1, 1);
+    background-color: white;
     position:relative;
 }
 
@@ -158,6 +149,7 @@ a:hover span {
         margin-right: 1rem;
     }
 }
+
 
 #textMoving h3 { 
     color: rgba(123,21,23,255);
