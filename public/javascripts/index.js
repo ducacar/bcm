@@ -4,10 +4,11 @@ const contactForm = document.querySelector('.contact-form');
 let company = document.getElementById('company');
 let email = document.getElementById('email');
 let subject = document.getElementById('subject');
+let number = document.getElementById('number')
 let from = document.getElementById('from');
 let to = document.getElementById('to');
 let message = document.getElementById('message');
-let number = document.getElementById('number')
+
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -37,6 +38,7 @@ contactForm.addEventListener('submit', (e) => {
             message.value  = '';
         }else{
             alert('Something went wrong!')
+            location.reload();
         }
         
     }

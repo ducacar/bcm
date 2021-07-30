@@ -13,10 +13,11 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="stylesheets/bcmtransportrs.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
+   
     <nav class="navbar navbar-light navbar-expand-md floating-manu">
         <button class="navbar-toggler position-absolute fixed-top" data-bs-toggle="collapse" data-bs-target="#navLink"
             aria-label="toggle navigation">
@@ -36,21 +37,23 @@
     <section>
         <div id="home" class="header-container text-center container-fluid d-flex d-none d-lg-block">
             <div class="row justify-content-center">
-                <div class="col-md-3">
+                <div class="col-md-3"data-aos="fade-right" data-aos-duration="3000">
                     <h6> <i class="bi bi-house-door"></i> Adresa: Antona Čehova 30/13, 21000 Novi Sad, Srbija</h6>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3"data-aos="fade-down"data-aos-duration="3000">
                     <h6> <i class="bi bi-hourglass"></i> Radno vreme: 8 – 17 č (ponedeljak – petak)</h6>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3"data-aos="fade-left"data-aos-duration="3000">
                     <h6> <i class="bi bi-telephone"></i> Kontakt telefon: +381 64 300 60 61</h6>
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-body position-absolute top-0 end-0">
-                <h5 class="card-title text-center container-fluid d-flex d-none d-lg-block"> BCM Transport and Logistics
-                    <br><i class="bi bi-truck-flatbed"></i> Obećano – dostavljeno!</h5>
+                <div data-aos="flip-left" data-aos-duration="3000">
+                    <h5 class="card-title text-center container-fluid d-flex d-none d-lg-block"> BCM Transport and Logistics
+                        <br><i class="bi bi-truck-flatbed"></i> Obećano – dostavljeno!</h5>
+                </div>
                 <div class="text-center">
                     <a href="#contact" id="TransBtn" class="btn btn-lg rounded-pill">Upit za transport</a>
                 </div>
@@ -71,7 +74,7 @@
                     <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627123431/BCM/elevate-GAdkOpqbTfo-unsplash-min_ffovuf.jpg"
                         class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6 align-items-center order-1 order-md-2">
+                <div class="col-md-6 align-items-center order-1 order-md-2" data-aos="fade-left" data-aos-duration="3000">
                     <h3 id="about"><i class="bi bi-file-person"></i> O nama</h3>
                     <p>BCM Transport and Logistic je kompanija osnovana 2017. godine. Na samom početku kompanija se
                         isključivo bavila konsaltingom u oblasti transporta u drumskom saobraćaju. Vremenom je došlo do
@@ -89,7 +92,7 @@
     <section class="container-fluid px-0">
         <div id="textMoving" class="d-flex flex-column text-center mt-5">
             <div class="row">
-                <div class="col-md-6 align-items-center">
+                <div class="col-md-6 align-items-center" data-aos="fade-right" data-aos-duration="3000">
                     <h3 id="service"><i class="bi bi-truck"></i> Prezentacija</h3>
                     <p>Osnovni fokus kompanije je ekspresni prevoz robe u Evropskoj uniji i na Balkanu. Iako
                         smo mladi, za kratko vreme su nas klijenti iz EU i Srbije prepoznali kao sigurnu i pouzdanu
@@ -105,18 +108,21 @@
                         uspešnu kompaniju koja će biti prepoznata kao lider na tržištu transportnih usluga – kompaniju
                         koja je superiorna u svim vidovima ekspresne dostave i u oblasti svog poslovanja </p>
                 </div>
-                <div class="col-md-6 pt-5">
+                <div class="col-md-6 pt-5" data-aos="fade-left" data-aos-duration="3000">
                     <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627123924/BCM/scott-graham-5fNmWej4tAA-unsplash_1_-min_bwywsd.jpg"
                         class="img-fluid" alt="">
                 </div>
             </div>
         </div>
     </section>
+
     <section id="contact" class="container-fluid px-0 mt-5">
         <div id="textMoving" class="row">
-            <h3 class="text-center"><i class="bi bi-telephone"></i> Upit za transport</h3>
+            <div data-aos="fade-up"data-aos-duration="3000">
+                <h3 class="text-center"><i class="bi bi-telephone"></i> Upit za transport</h3>
+            </div>
             <div class="col-md-6">
-                <div class="col-md-12 align-items-center text-center mt-5">
+                <div class="col-md-12 align-items-center text-center mt-5"data-aos="fade-left" data-aos-duration="3000">
                     <ul>
                         <li><p>*Molimo Vas da popunite sva navedena polja! </p></li>
                         <li><p>VAŽNO!</p></li>
@@ -128,14 +134,13 @@
                     <img class="mt-5"
                         src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627123421/BCM/cropped-bmc_logo1-2-5_wyctla-min_jym4lq.png">
                 </div>
-                <div class="col-md-12 align-items-center text-center mt-5" >
+                <div class="col-md-12 align-items-center text-center mt-5"data-aos="fade-left" data-aos-duration="3000" >
                     <ul>
                         <li><p><i class="bi bi-house-door"></i> Adresa: Antona Čehova 30/13, 21000 Novi Sad, Srbija </p></li>
                         <li><p><i class="bi bi-hourglass"></i> Radno vreme: 8 – 17 č (ponedeljak – petak)</p></li>
                         <li><p><i class="bi bi-telephone"></i> Kontakt telefon: +381 64 300 60 61</p></li>
                     </ul>
-                </div >
-                
+                </div >               
             </div>
             <div class="col-md-6 mt-5">
                 <div class="input-group justify-content-center">
@@ -152,13 +157,11 @@
                                     <label for="email" class="form-label">*Imejl</label>
                                 </div>
                                 <div class="col-lg-5 align-self-center">
-                                    <input class="form-control" type="number" id="number" name="contact[number]"
-                                        required>
+                                    <input class="form-control" type="number" step="0.01" id="number" name="contact[number]"required>
                                     <label for="number" class="form-label">*Broj telefona</label>
                                 </div>
                                 <div class="col-lg-5 align-self-center">
-                                    <input class="form-control" type="text" id="subject" name="contact[subject]"
-                                        required>
+                                    <input class="form-control" type="text" id="subject" name="contact[subject]"required>
                                     <label for="subject" class="form-label">*Tema</label>
                                 </div>
                                 <p class="align-self-center">Transport:</p>
@@ -189,7 +192,7 @@
         </div>
     </section>
     <section class="container fluid">
-        <div class="d-flex flex-column mt-5 d-flex justify-content-center  align-items-center">
+        <div class="d-flex flex-column mt-5 d-flex justify-content-center  align-items-center"data-aos="fade-right" data-aos-duration="3000">
             <span class="border-top border-light border-5">
                 <div class="row">
                     <div class="col-8 px-0">
@@ -212,8 +215,10 @@
         </div>
     </section>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-chevron-double-up"></i> <br> Top</button>
 
 
+    <script src="javascripts/scroll.js"></script>
     <script type="module" src="javascripts/index.js"></script>
     <script src="javascripts/contact.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
@@ -222,6 +227,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            disable: 'mobile'
+          });
+        </script>
 </body>
 
 </html>
