@@ -6,6 +6,7 @@ body {
 
 .btn-danger, .btn-danger:active, .btn-danger:visited {
     background-color: rgb(129, 1, 1) !important;
+    border-color: rgb(129, 1, 1) !important;
 }
 .btn-danger:hover {
     background-color: rgb(202, 197, 198) !important;
@@ -34,6 +35,18 @@ h3 {
 }
 
 
+#topLogo {
+    width: 50%;
+    margin-left: 26%;
+}
+
+#topMoto {
+    font-size: 1.5rem;
+    font-weight:lighter;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 p {
     color: rgb(129, 1, 1);
     font-weight: 600;
@@ -41,8 +54,6 @@ p {
     margin-left: 6.6rem;
     margin-right: 6.6rem;
 }
-
-
 
 
 #TransBtn {
@@ -111,6 +122,8 @@ a:hover span {
     background-color: white;
     margin-bottom: 2rem;
 }
+
+
 
 .navbar-toggler-icon{
     background-color: white;

@@ -24,7 +24,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navLink">
-            <div class="btn-group-vertical">
+            <div>
                 <a class="nav-link btn btn-lg" href="#home"><i class="bi bi-house-door"></i> <span>Početna</span></a>
                 <a class="nav-link btn btn-lg" href="#about"><i class="bi bi-file-person"></i> <span>O Nama</span> </a>
                 <a class="nav-link btn btn-lg" href="#service"><i class="bi bi-truck"></i> <span>Prezentacija</span>
@@ -49,10 +49,13 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-body position-absolute top-0 end-0">
-                <div data-aos="flip-left" data-aos-duration="3000">
-                    <h5 class="card-title text-center container-fluid d-flex d-none d-lg-block"> BCM Transport and Logistics
-                        <br><i class="bi bi-truck-flatbed"></i> Obećano – dostavljeno!</h5>
+            <div  class="card-body position-absolute top-0 end-0">
+                <div class="container-fluid d-flex flex-column text-center">
+                    <img id="topLogo" class="d-flex d-none d-lg-block"
+                        src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627123421/BCM/cropped-bmc_logo1-2-5_wyctla-min_jym4lq.png">
+                </div>
+                <div>
+                    <h5 id="topMoto" class="card-title text-center container-fluid d-flex d-none d-lg-block">><i class="bi bi-truck-flatbed"></i> Obećano – dostavljeno!</h5>
                 </div>
                 <div class="text-center">
                     <a href="#contact" id="TransBtn" class="btn btn-lg rounded-pill">Upit za transport</a>
@@ -192,7 +195,7 @@
         </div>
     </section>
     <section class="container fluid">
-        <div class="d-flex flex-column mt-5 d-flex justify-content-center  align-items-center"data-aos="fade-right" data-aos-duration="1000">
+        <div class="d-flex flex-column mt-5 mb-5 d-flex justify-content-center align-items-center"data-aos="fade" data-aos-duration="1000">
             <span class="border-top border-light border-5">
                 <div class="row">
                     <div class="col-8 px-0">
@@ -215,7 +218,7 @@
         </div>
     </section>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-chevron-double-up"></i> <br> Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-chevron-double-up"></i> <br> Vrh</button>
 
 
     <script src="javascripts/scroll.js"></script>

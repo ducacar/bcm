@@ -18,11 +18,9 @@ p {
 
 .btn-danger, .btn-danger:active, .btn-danger:visited {
     background-color: rgb(129, 1, 1) !important;
+    border-color: rgb(129, 1, 1) !important;
 }
-.btn-danger:hover {
-    background-color: rgb(202, 197, 198) !important;
-    color: rgb(129, 1, 1) !important;
-}
+
 
 #fadingAff {
     animation: fadeInAnimation ease 6s; 
