@@ -51,8 +51,8 @@ p {
     color: rgb(129, 1, 1);
     font-weight: 600;
     text-align: justify;
-    margin-left: 6.6rem;
-    margin-right: 6.6rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 
@@ -123,12 +123,6 @@ a:hover span {
     margin-bottom: 2rem;
 }
 
-
-
-.navbar-toggler-icon{
-    background-color: white;
-    position:relative;
-}
 
 
 #textMoving p {
@@ -233,3 +227,10 @@ input:focus:invalid {
   #myBtn:hover {
     background-color: #555;
   }
+
+#mobNav a {
+    color: white!important;
+}
+#mobNav {
+    position: fixed;
+}
