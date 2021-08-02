@@ -12,13 +12,19 @@ body {
 }
 
 p {
-    padding-top: 30px;
-    padding-bottom: 25px;
-  }
+    color: white;
+}
+
+#line{
+    color: rgb(129, 1, 1);
+    font-weight:bolder;
+    font-size: 2rem;
+}  
 
 .btn-danger, .btn-danger:active, .btn-danger:visited {
     background-color: rgb(129, 1, 1) !important;
     border-color: rgb(129, 1, 1) !important;
+    margin-bottom: 1rem;
 }
 
 
@@ -35,4 +41,30 @@ p {
     100% { 
         opacity: 1; 
      } 
-} 
+}
+
+#textMoving{
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+@media(max-width: 768px) {
+    #textMoving p {
+        font-weight: 600;
+        font-size: 1rem;
+        color: white;
+    }
+}
+
+
+@media(max-width: 768px) {
+    #line {
+        font-weight:bolder;
+        font-size: 1rem;
+        color: rgb(129, 1, 1);
+    }
+}
+
