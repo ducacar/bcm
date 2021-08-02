@@ -138,8 +138,8 @@ a:hover span {
         font-weight: 600;
         text-align: justify;
         font-size: 1.2rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 8rem;
+        margin-right: 8rem;
     }
 }
 
@@ -148,7 +148,31 @@ a:hover span {
         color: rgb(129, 1, 1);
         font-weight: 600;
         text-align: justify;
+        font-size: 0.8rem;
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+}
+
+@media(max-width: 990px) {
+    #textMoving p {
+        color: rgb(129, 1, 1);
+        font-weight: 600;
+        text-align: justify;
         font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media(max-width: 768px) {
+    #textMoving p {
+        color: rgb(129, 1, 1);
+        font-weight: 600;
+        text-align: justify;
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 
@@ -196,15 +220,15 @@ input:focus:invalid {
     box-shadow: none;
   }
 
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
  
       -webkit-appearance: none;
       margin: 0;
   }
   
   
-  ul {
+ul {
     list-style-type: none;
 }
 
@@ -234,3 +258,9 @@ input:focus:invalid {
 #mobNav {
     position: fixed;
 }
+
+
+.card {
+    border:0rem;
+}
+
