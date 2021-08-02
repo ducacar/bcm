@@ -17,12 +17,8 @@
 </head>
 
 <body>
-    <nav id="MainNav" class="navbar navbar-light floating-manu">
-        <button class="navbar-toggler position-absolute fixed-top" data-bs-toggle="collapse" data-bs-target="#navLink"
-            aria-label="toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navLink">
+    <nav class="navbar navbar-light floating-manu">
+        <div class="collapse navbar-collapse d-flex d-none d-lg-block" id="navLink">
             <div>
                 <a class="nav-link btn btn-lg" href="#home"><i class="bi bi-house-door"></i> <span>Home</span></a>
                 <a class="nav-link btn btn-lg" href="#about"><i class="bi bi-file-person"></i> <span>About</span> </a>
@@ -52,10 +48,10 @@
                 </div>
             </div>
         </div>
-        <div class="card d-flex d-none d-lg-block">
+        <div class="card d-none d-lg-block">
             <div class="card-body position-absolute top-0 end-0">
-                <div class="container-fluid flex-column text-center">
-                    <img id="topLogo" class="d-flex "
+                <div class="container-fluid d-flex flex-column text-center">
+                    <img id="topLogo"
                         src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627123421/BCM/cropped-bmc_logo1-2-5_wyctla-min_jym4lq.png">
                 </div>
                 <div>
