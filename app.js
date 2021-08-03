@@ -6,7 +6,6 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const nodemailer = require('nodemailer');
-const Joi = require('joi');
 const catchAsync = require('./utills/catchAsync');
 const ExpressError = require('./utills/ExpressError')
 const helmet = require('helmet')
@@ -21,10 +20,9 @@ app.use(express.static('public'));
 app.use(express.json());
 
 
-
-
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
+
 
 app.get ('/', (req, res) => {
     res.render('home')
