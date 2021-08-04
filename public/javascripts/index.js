@@ -27,7 +27,7 @@ contactForm.addEventListener('submit', (e) => {
     xhr.onload = function(){
         console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
-            alert ('Email sent!');
+            alert ('Request sent/Upit uspešno poslat!');
             location.reload();
             company.value  = '';
             email.value  = '';
@@ -37,7 +37,7 @@ contactForm.addEventListener('submit', (e) => {
             to.value  = '';
             message.value  = '';
         }else{
-            alert('Something went wrong!')
+            alert('Something went wrong, please try again / Nešto nije u redu, molim Vas pokušajte ponovo!')
             location.reload();
         }
         
