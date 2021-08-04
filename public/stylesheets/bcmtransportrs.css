@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;;
     background-color: rgb(202, 197, 198);
     position: relative;
 }
@@ -10,30 +10,29 @@ h6 {
 
 
 h3 {
-    color: rgb(129, 1, 1);
+    color: black;
     padding-bottom: 3rem;
     padding-top: 3rem;
     text-align: center;
     font-weight: bold;
     font-style: italic;
+    margin-bottom: 0%;
+}
+
+h2 {
+    margin: 0%;
 }
 
 p {
-    color: rgb(129, 1, 1);
-    font-weight: 600;
-    text-align: justify;
+    color: black;
+    font-weight: 400;
+    text-align: center;
     margin-left: 8rem;
     margin-right: 8rem;
+    font-size: 17px;
 }
 
-h5.card-title {
-    font-size: 2.5rem;
-    background-color: transparent;
-    border-radius: 2rem;
-    margin-bottom: 0%;
-    color: rgb(129, 1, 1);
-    font-weight: bold;
-}
+
 
 a span {
     max-width: 0;
@@ -51,6 +50,8 @@ a:hover span {
 
 label {
     color: rgb(129, 1, 1);
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 input:invalid {
@@ -83,6 +84,7 @@ ul {
 .header-container {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
+    background-color: white;
 }
 
 .nav-link.btn.btn-lg:hover{ 
@@ -112,17 +114,6 @@ ul {
     justify-content: start;
 }
 
-#topLogo {
-    width: 50%;
-    margin-left: 26%;
-}
-
-#topMoto {
-    font-size: 1.5rem;
-    font-weight:lighter;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 
 #TransBtn {
     border-color: rgb(129, 1, 1);
@@ -133,27 +124,24 @@ ul {
     text-shadow: 2rem;
 }
 
+#Transport {
+    color: rgb(129, 1, 1);
+    font-weight: 500;
+    font-size: 1rem;
+}
 
 #TransBtn:hover {
     background-color: white;
     color: rgb(129, 1, 1);   
 }
 
-#textMoving p {
-    color: rgb(129, 1, 1);
+#textMoving {
+    color: black;
     font-weight: 600;
     text-align: justify;
     font-size: 1.5rem;
 }
 
-#textMoving h3 { 
-    color: rgb(129, 1, 1);
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-}
 
 #myBtn {
     display: none;
@@ -182,43 +170,16 @@ ul {
     position: fixed;
 }
 
-@media(max-width: 1700px) {
-    #topLogo {
-        width: 30%;
-        margin-left: 36%;
-    }
-}
-
-@media(max-width: 1400px) {
-    #topLogo {
-        width: 25%;
-        margin-left: 38%;
-    }
-}
-
-@media(max-width: 1700px) {
-    #topMoto{
-        font-size: 1.2rem;
-        margin-top: 0.7rem;
-        margin-bottom: 0.7rem;
-    }
-}
-
-@media(max-width: 1400px) {
-    #topMoto{
-        font-size: 1rem;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
+#topImg {
+    width: 80%;
+    background-color: white;
 }
 
 @media(max-width: 1700px) {
     #textMoving p {
-        color: rgb(129, 1, 1);
-        font-weight: 600;
-        text-align: justify;
-        font-size: 1.3rem;
-        line-height: 2rem;
+        color: black;
+        text-align: center;
+        font-size: 17px;
         margin-left: 8rem;
         margin-right: 8rem;
     }
@@ -226,11 +187,9 @@ ul {
 
 @media(max-width: 1400px) {
     #textMoving p {
-        color: rgb(129, 1, 1);
-        font-weight: 500;
+        color: black;
         text-align: center;
-        font-size: 1.2rem;
-        line-height: 1.2rem;
+        font-size: 17px;
         margin-left: 8rem;
         margin-right: 8rem;
     }
@@ -238,11 +197,9 @@ ul {
 
 @media(max-width: 1024px) {
     #textMoving p {
-        color: rgb(129, 1, 1);
-        font-weight: 400;
-        text-align: justify;
-        font-size: 1.2rem;
-        line-height: 1rem;
+        color: black;
+        text-align: center;
+        font-size: 17px;
         margin-left: 8rem;
         margin-right: 8rem;
     }
@@ -250,10 +207,9 @@ ul {
 
 @media(max-width: 1000px) {
     #textMoving p {
-        color: rgb(129, 1, 1);
-        font-weight: 400;
-        text-align: justify;
-        font-size: 1.2rem;
+        color:black;
+        text-align: center;
+        font-size: 17px;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -261,10 +217,9 @@ ul {
 
 @media(max-width: 768px) {
     #textMoving p {
-        color: rgb(129, 1, 1);
-        font-weight: 300;
+        color: black;
         text-align:center;
-        font-size: 1.2rem;
+        font-size: 17px;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -272,7 +227,7 @@ ul {
 
 @media(max-width: 1700px) {
     #textMoving h3 { 
-        color: rgb(129, 1, 1);
+        color: black;
         padding-bottom: 3rem;
         padding-top: 3rem;
         text-align: center;
@@ -283,7 +238,7 @@ ul {
 
 @media(max-width: 1400px) {
     #textMoving h3 { 
-        color: rgb(129, 1, 1);
+        color: black;
         padding-bottom: 3rem;
         padding-top: 3rem;
         text-align: center;
@@ -294,7 +249,7 @@ ul {
 
 @media(max-width: 1024px) {
     #textMoving h3 { 
-        color: rgb(129, 1, 1);
+        color: black;
         padding-bottom: 3rem;
         padding-top: 1.5rem;
         text-align: center;
@@ -305,7 +260,7 @@ ul {
 
 @media(max-width: 768px) {
     #textMoving h3 { 
-        color: rgb(129, 1, 1);
+        color: black;
         padding-bottom: 2rem;
         padding-top: 2rem;
         text-align: center;
