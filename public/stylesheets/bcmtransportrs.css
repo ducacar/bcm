@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(202, 197, 198);
+    background-color: rgb(240, 240, 240) ;
     position: relative;
 }
 
@@ -113,7 +113,7 @@ ul {
 }
 
 .card-body {
-    padding-right: 50rem;
+    padding-right: 20rem;
     padding-top: 10rem;
 }
 
