@@ -1,11 +1,12 @@
 body {
-    font-family: 'Poppins', sans-serif;;
+    font-family: sans-serif;
     background-color: rgb(202, 197, 198);
     position: relative;
 }
 
 h6 {
     color: rgb(129, 1, 1);
+    margin-bottom: 0rem;
 }
 
 
@@ -24,9 +25,7 @@ h2 {
 }
 
 p {
-    color: black;
     font-weight: 400;
-    text-align: center;
     margin-left: 8rem;
     margin-right: 8rem;
     font-size: 17px;
@@ -102,9 +101,7 @@ ul {
     margin-bottom: 2rem;
 }
 
-.card {
-    border:0rem;
-}
+
 
 .floating-manu {
     position:fixed;
@@ -112,11 +109,16 @@ ul {
     padding-top: 8rem;
     display: flex;
     justify-content: start;
+    z-index: 99;
 }
 
 .card-body {
-    padding-right: 10%;
-    padding-top: 5%;
+    padding-right: 50rem;
+    padding-top: 10rem;
+}
+
+.form-container {
+    max-width: 80%;
 }
 
 #TransBtn {
@@ -138,14 +140,6 @@ ul {
     background-color: white;
     color: rgb(129, 1, 1);   
 }
-
-#textMoving {
-    color: black;
-    font-weight: 600;
-    text-align: justify;
-    font-size: 1.5rem;
-}
-
 
 #myBtn {
     display: none;
@@ -172,17 +166,17 @@ ul {
 }
 #mobNav {
     position: fixed;
+    z-index: 99;
 }
 
 #topImg {
-    width: 80%;
+    width: 60%;
     background-color: white;
 }
 
 @media(max-width: 1700px) {
     #textMoving p {
         color: black;
-        text-align: center;
         font-size: 17px;
         margin-left: 8rem;
         margin-right: 8rem;
@@ -192,8 +186,16 @@ ul {
 @media(max-width: 1400px) {
     #textMoving p {
         color: black;
-        text-align: center;
         font-size: 17px;
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+}
+
+@media(max-width: 1200px) {
+    #textMoving p {
+        color: black;
+        font-size: 15px;
         margin-left: 8rem;
         margin-right: 8rem;
     }
@@ -202,8 +204,7 @@ ul {
 @media(max-width: 1024px) {
     #textMoving p {
         color: black;
-        text-align: center;
-        font-size: 17px;
+        font-size: 14px;
         margin-left: 8rem;
         margin-right: 8rem;
     }
@@ -212,20 +213,18 @@ ul {
 @media(max-width: 1000px) {
     #textMoving p {
         color:black;
-        text-align: center;
         font-size: 17px;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 }
 
 @media(max-width: 768px) {
     #textMoving p {
         color: black;
-        text-align:center;
         font-size: 17px;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 }
 
@@ -234,7 +233,6 @@ ul {
         color: black;
         padding-bottom: 3rem;
         padding-top: 3rem;
-        text-align: center;
         font-weight: bold;
         font-size: 2rem;
     }
@@ -245,7 +243,6 @@ ul {
         color: black;
         padding-bottom: 3rem;
         padding-top: 3rem;
-        text-align: center;
         font-weight: bold;
         font-size: 1.5rem;
     }
@@ -256,7 +253,6 @@ ul {
         color: black;
         padding-bottom: 3rem;
         padding-top: 1.5rem;
-        text-align: center;
         font-weight: bold;
         font-size: 1.5rem;
     }
@@ -267,11 +263,11 @@ ul {
         color: black;
         padding-bottom: 2rem;
         padding-top: 2rem;
-        text-align: center;
         font-weight: bold;
         font-size: 2rem;
     }
 }
+
 
 @media(max-width: 768px) {
     #footerP p {
