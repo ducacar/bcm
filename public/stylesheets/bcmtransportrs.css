@@ -114,6 +114,10 @@ ul {
     justify-content: start;
 }
 
+.card-body {
+    padding-right: 10%;
+    padding-top: 5%;
+}
 
 #TransBtn {
     border-color: rgb(129, 1, 1);
