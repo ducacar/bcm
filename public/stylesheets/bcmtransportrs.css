@@ -9,6 +9,10 @@ h6 {
     margin-bottom: 0rem;
 }
 
+h5 {
+    color: rgb(122, 122, 122);
+    font-size: 17px;
+}
 
 h3 {
     color: black;
@@ -136,6 +140,10 @@ ul {
     position:absolute;
     padding-left: 12%;
     padding-right: 12%;
+}
+
+#gap {
+    height: 16rem;
 }
 
 #TransBtn {
