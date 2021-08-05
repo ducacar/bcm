@@ -27,6 +27,7 @@
                 <a class="nav-link btn btn-lg" href="#home"><i class="bi bi-house-door"></i><span>Početna</span></a>
                 <a class="nav-link btn btn-lg" href="#about"><i class="bi bi-file-person"></i><span>O Nama</span></a>
                 <a class="nav-link btn btn-lg" href="#service"><i class="bi bi-truck"></i><span>Usluga</span></a>
+                <a class="nav-link btn btn-lg" href="#request"><i class="bi bi-globe2"></i><span>Upit</span></a>
                 <a class="nav-link btn btn-lg" href="#contact"><i class="bi bi-telephone"></i><span>Kontakt</span></a>
             </div>
         </div>       
@@ -56,14 +57,14 @@
     <div class="card d-none d-lg-block">
         <div class="card-body position-absolute top-0 end-0">              
             <div class="text-center">
-                <a href="#request" id="TransBtn" class="btn btn-lg rounded-pill">Upit za transport</a>
+                <a href="#request" id="TransBtn" class="btn btn-lg rounded-pill"><i class="bi bi-globe2"></i> Upit za transport</a>
             </div>
 
         </div>
     </div>
  
     <section>
-        <div class="container-fluid d-flex flex-column text-center px-0">          
+        <div class="container-fluid d-flex flex-column text-center px-0 mb-5">          
             <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004892/BCM/poku%C5%A1aj_yqpzie-min_tageli_iasjnt.png" alt="trucks">
         </div>
     </section>    
@@ -73,7 +74,7 @@
                     <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004892/BCM/elevate-GAdkOpqbTfo-unsplash-min_ffovuf-2_mkks8p.jpg"
                         class="img-fluid" alt="loading trucks">
                 </div>
-                <div id="textMoving" class="col-md-6 text-center justify-content-center order-1 order-md-2">
+                <div id="textMoving" class="col-md-6 text-start justify-content-center order-1 order-md-2">
                     <h3 id="about"><i class="bi bi-file-person"></i> O nama</h3>
                     <p>BCM Transport and Logistic je kompanija osnovana 2017. godine. Na samom početku kompanija se
                         isključivo bavila konsaltingom u oblasti transporta u drumskom saobraćaju. Vremenom je došlo do
@@ -88,7 +89,7 @@
     </section> 
     <section class="container-fluid px-0">       
             <div class="row align-items-center">
-                <div id="textMoving" class="col-md-6 text-center justify-content-center">
+                <div id="textMoving" class="col-lg-6 text-start justify-content-center">
                     <h3 id="service"><i class="bi bi-truck"></i> Usluga</h3>
                     <p>Osnovni fokus kompanije je ekspresni prevoz robe u Evropskoj uniji i na Balkanu. Iako
                         smo mladi, za kratko vreme su nas klijenti iz EU i Srbije prepoznali kao sigurnu i pouzdanu
@@ -103,7 +104,7 @@
                         uspešnu kompaniju koja će biti prepoznata kao lider na tržištu transportnih usluga – kompaniju
                         koja je superiorna u svim vidovima ekspresne dostave i u oblasti svog poslovanja. </p>
                 </div>
-                <div class="col-md-6 pt-5">
+                <div class="col-lg-6 pt-5">
                     <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004891/BCM/scott-graham-5fNmWej4tAA-unsplash_1_-min_bwywsd_tkqtue.jpg"
                         class="img-fluid" alt="office">
                 </div>
@@ -112,7 +113,7 @@
     <section  class="container-fluid px-0 mt-5">
         <div id="textMoving" class="row">
             <div>
-                <h3 id="request" class="text-center"><i class="bi bi-telephone"></i> Upit za transport</h3>
+                <h3 id="request" class="text-center"><i class="bi bi-globe2"></i> Upit za transport</h3>
             </div>
             <div  class="col-md-12">
                 <div  class="col-md-12 align-items-center text-center mt-5">
@@ -146,7 +147,7 @@
                                     <input class="form-control" type="text" id="subject" name="contact[subject]"required>
                                     <label for="subject" class="form-label">*Tema</label>
                                 </div>
-                                <p id="Transport" class="align-self-center">Transport:</p>
+                                <p id="transport" class="align-self-center">Transport:</p>
                                 <div class="col-lg-5 align-self-center">
                                     <input class="form-control" type="text" id="from" name="contact[from]" required>
                                     <label for="from" class="form-label">*Od</label>
@@ -174,15 +175,35 @@
         </div>
     </section>
     <div id="textMoving" class="row">
-        <div class="col-md-12 align-items-center text-center mt-5">
-            <h3 id="contact">Kontakt</h3>
-            <ul>
-                <li><p><i class="bi bi-house-door"></i> Adresa: Antona Čehova 30/13, 21000 Novi Sad, Srbija </p></li>
-                <li><p><i class="bi bi-hourglass"></i> Radno vreme: 8 – 17 č (ponedeljak – petak)</p></li>
-                <li><p><i class="bi bi-telephone"></i> Kontakt telefon: +381 64 300 60 61</p></li>
-            </ul>
-        </div>  
+        <div class="align-items-center text-center mt-5">
+            <div class="col">
+                <h3 id="contact"><i class="bi bi-telephone"></i> Kontakt</h3>
+            </div>
+            <div class="col-sm-12">
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.073317478413!2d19.827590715761463!3d45.24631015597654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b103ebb7f4de7%3A0x3e641d6bdd60f3fe!2sAntona%20%C4%8Cehova%2030%2C%20Novi%20Sad%2021000!5e0!3m2!1sen!2srs!4v1628158484769!5m2!1sen!2srs" width="1500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div id="textMoving" class="col-lg-4 text-center justify-content-center">
+                    <h3>Adresa</h3>
+                    <p>Antona Čehova 30/13, 21000 Novi Sad, Srbija </p>
+                </div>
+                <div id="textMoving" class="col-lg-4 text-center justify-content-center">
+                    <h3>Radno vreme</h3>
+                    <p> 8 – 17 č (ponedeljak – petak)</p>
+                </div>
+                <div id="textMoving" class="col-lg-4 text-center justify-content-center">
+                    <h3>Kontakti</h3>
+                    <p>Telefon: +381 64 300 60 61 <br> Imejl: office@bcmtransport.rs</p>
+                </div>
+            </div>
+        </div>         
+            
+  
     
     <section class="container fluid">
         <div class="d-flex flex-column  mb-4 d-flex justify-content-center align-items-center">

@@ -85,7 +85,6 @@ const styleSrcUrls = [
     "https://cdn.jsdelivr.net",
 ];
 const connectSrcUrls = [
-
 ];
 const fontSrcUrls = [];
 app.use(

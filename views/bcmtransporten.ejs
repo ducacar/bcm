@@ -24,11 +24,11 @@
     <nav class="navbar navbar-light floating-manu">
         <div class="collapse navbar-collapse d-flex d-none d-lg-block" id="navLink">
             <div>
-                <a class="nav-link btn btn-lg" href="#home"><i class="bi bi-house-door"></i> <span>Home</span></a>
-                <a class="nav-link btn btn-lg" href="#about"><i class="bi bi-file-person"></i> <span>About</span> </a>
-                <a class="nav-link btn btn-lg" href="#service"><i class="bi bi-truck"></i> <span>Service</span>
-                </a>
-                <a class="nav-link btn btn-lg" href="#contact"><i class="bi bi-telephone"></i> <span>Contact</span> </a>
+                <a class="nav-link btn btn-lg" href="#home"><i class="bi bi-house-door"></i><span>Home</span></a>
+                <a class="nav-link btn btn-lg" href="#about"><i class="bi bi-file-person"></i><span>About</span> </a>
+                <a class="nav-link btn btn-lg" href="#service"><i class="bi bi-truck"></i><span>Service</span></a>
+                <a class="nav-link btn btn-lg" href="#request"><i class="bi bi-globe2"></i><span>Request</span></a>
+                <a class="nav-link btn btn-lg" href="#contact"><i class="bi bi-telephone"></i><span>Contact</span> </a>
             </div>
         </div>
     </nav>
@@ -36,7 +36,7 @@
         <a class="nav-link btn btn-danger" href="#about">About</a>
         <a class="nav-link btn btn-danger" href="#service">Service</a>
         <a class="nav-link btn btn-danger" href="#request">Transport request </a>
-                <a class="nav-link btn btn-danger" href="#contact"></a>Contact </a>
+        <a class="nav-link btn btn-danger" href="#contact"></a>Contact </a>
     </div>
     <section>
         <div id="home" class="header-container text-center container-fluid d-flex d-none d-lg-block">
@@ -55,7 +55,7 @@
         <div class="card d-none d-lg-block">
             <div class="card-body position-absolute top-0 end-0">              
                 <div class="text-center">
-                    <a href="#request" id="TransBtn" class="btn btn-lg rounded-pill">Transport request</a>
+                    <a href="#request" id="TransBtn" class="btn btn-lg rounded-pill"><i class="bi bi-globe2"></i> Transport request</a>
                 </div>
 
             </div>
@@ -72,7 +72,7 @@
                     <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004892/BCM/elevate-GAdkOpqbTfo-unsplash-min_ffovuf-2_mkks8p.jpg"
                         class="img-fluid" alt="loading trucks">
                 </div>
-                <div id="textMoving" class="col-md-6 text-center justify-content-center order-1 order-md-2">
+                <div id="textMoving" class="col-md-6 text-start justify-content-center order-1 order-md-2">
                     <h3 id="about"><i class="bi bi-file-person"></i> About us</h3>
                     <p>BCM Transport and Logistics is a company founded in 2017. At the very beginning, the company was exclusively engaged in consulting in the field of road transport. Over time, the business has expanded, so that BCM Transport and Logistic now also provides transport services. The founder of BCM Transport and Logistics - Bojan Miletić, graduated traffic engineer - has gained vast experience in various freight forwarding operations while cooperating with entities from various business spheres. For this reason, by hiring BCM Transport and Logistics, clients count on accuracy, speed, efficiency, and professionalism.</p>
                 </div>
@@ -80,7 +80,7 @@
     </section> 
     <section class="container-fluid px-0"> 
         <div class="row align-items-center">
-            <div id="textMoving" class="col-md-6 text-center justify-content-center">
+            <div id="textMoving" class="col-md-6 text-start justify-content-center">
                     <h3 id="service"><i class="bi bi-truck"></i> Service</h3>
                     <p>The main focus of the company is the express transport of goods in the European Union and the Balkans. Although we are young, in a short time, clients from the EU and Serbia have recognized us as a safe and reliable company that provides transportation services at the highest level, without delaying delivery deadlines. Our clients are mainly companies from the automotive industry, which need reliable and fast transport of goods, without delays. To ensure this, we are constantly expanding our fleet. All vehicles in the fleet are modernly equipped for the transport of goods in international traffic. Vehicles are available 24 hours a day, 365 days a year. We are ready to help you and meet all your requirements within 120 minutes. BCM Transport and Logistics is constantly growing and our goal is to build a dynamic, healthy, and successful company that will be recognized as a leader in the market of transport services - a company that is superior in all forms of express delivery and its business. </p>
                 </div>
@@ -128,7 +128,7 @@
                                         required>
                                     <label for="subject" class="form-label">*Subject</label>
                                 </div>
-                                <p id="Transport" class="align-self-center">Transport:</p>
+                                <p id="transport" class="align-self-center">Transport:</p>
                                 <div class="col-lg-5 align-self-center">
                                     <input class="form-control" type="text" id="from" name="contact[from]" required>
                                     <label for="from" class="form-label">*From</label>
@@ -156,16 +156,34 @@
         </div>
     </section>
 </div>
-  <div id="textMoving" class="row">
-    <div class="col-md-12 align-items-center text-center mt-5" >
-        <h3 id="contact">Contact</h3>
-        <ul>
-            <li><p><i class="bi bi-house-door"></i> Address: Antona Čehova 30/13, 21000 Novi Sad, Serbia </p></li>
-            <li><p><i class="bi bi-hourglass"></i> Working hours: 8 am - 5 pm (Monday - Friday)</p></li>
-            <li><p><i class="bi bi-telephone"></i> Contact phone: +381 64 300 60 61</p></li>
-        </ul>
-    </div>   
-  </div>  
+<div id="textMoving" class="row">
+    <div class="align-items-center text-center mt-5">
+        <div class="col">
+            <h3 id="contact">Contact</h3>
+        </div>
+        <div class="col-sm-12">
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.073317478413!2d19.827590715761463!3d45.24631015597654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b103ebb7f4de7%3A0x3e641d6bdd60f3fe!2sAntona%20%C4%8Cehova%2030%2C%20Novi%20Sad%2021000!5e0!3m2!1sen!2srs!4v1628158484769!5m2!1sen!2srs" width="1500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div id="textMoving" class="col-lg-4 text-center justify-content-center">
+                <h3>Address</h3>
+                <p>Antona Čehova 30/13, 21000 Novi Sad, Serbia </p>
+            </div>
+            <div id="textMoving" class="col-lg-4 text-center justify-content-center">
+                <h3>Working hours</h3>
+                <p> 8 am - 5 pm (Monday - Friday)</p>
+            </div>
+            <div id="textMoving" class="col-lg-4 text-center justify-content-center">
+                <h3>Contacts</h3>
+                <p>Phone number: +381 64 300 60 61 <br> Email: office@bcmtransport.rs</p>
+            </div>
+        </div>
+    </div>        
     
     <section class="container fluid">
         <div class="d-flex flex-column  mb-4 d-flex justify-content-center align-items-center">

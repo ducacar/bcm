@@ -16,7 +16,6 @@ h3 {
     padding-top: 3rem;
     text-align: center;
     font-weight: bold;
-    font-style: italic;
     margin-bottom: 0%;
 }
 
@@ -25,12 +24,12 @@ h2 {
 }
 
 p {
-    font-weight: 400;
+    font-weight: 300;
     margin-left: 8rem;
     margin-right: 8rem;
     font-size: 17px;
+    color: rgb(122, 122, 122);
 }
-
 
 
 a span {
@@ -69,6 +68,7 @@ input::-webkit-inner-spin-button {
 
 ul {
     list-style-type: none;
+    padding: 0%;
 }
 
 .btn-danger, .btn-danger:active, .btn-danger:visited {
@@ -102,7 +102,6 @@ ul {
 }
 
 
-
 .floating-manu {
     position:fixed;
     padding: 2rem;
@@ -121,6 +120,24 @@ ul {
     max-width: 80%;
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:25%;
+    position:relative;
+    height:0;
+    padding-left: 10%;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width: 100%;
+    position:absolute;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
 #TransBtn {
     border-color: rgb(129, 1, 1);
     border-style: solid;
@@ -130,7 +147,7 @@ ul {
     text-shadow: 2rem;
 }
 
-#Transport {
+#transport {
     color: rgb(129, 1, 1);
     font-weight: 500;
     font-size: 1rem;
@@ -174,9 +191,17 @@ ul {
     background-color: white;
 }
 
+#footerP p {
+    color: rgb(129, 1, 1);
+    font-weight:500;
+    font-size: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+
 @media(max-width: 1700px) {
     #textMoving p {
-        color: black;
         font-size: 17px;
         margin-left: 8rem;
         margin-right: 8rem;
@@ -185,7 +210,6 @@ ul {
 
 @media(max-width: 1400px) {
     #textMoving p {
-        color: black;
         font-size: 17px;
         margin-left: 8rem;
         margin-right: 8rem;
@@ -194,7 +218,6 @@ ul {
 
 @media(max-width: 1200px) {
     #textMoving p {
-        color: black;
         font-size: 15px;
         margin-left: 8rem;
         margin-right: 8rem;
@@ -203,7 +226,6 @@ ul {
 
 @media(max-width: 1024px) {
     #textMoving p {
-        color: black;
         font-size: 14px;
         margin-left: 8rem;
         margin-right: 8rem;
@@ -212,25 +234,24 @@ ul {
 
 @media(max-width: 1000px) {
     #textMoving p {
-        color:black;
         font-size: 17px;
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 
 @media(max-width: 768px) {
     #textMoving p {
-        color: black;
         font-size: 17px;
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 
+
+
 @media(max-width: 1700px) {
     #textMoving h3 { 
-        color: black;
         padding-bottom: 3rem;
         padding-top: 3rem;
         font-weight: bold;
@@ -240,7 +261,6 @@ ul {
 
 @media(max-width: 1400px) {
     #textMoving h3 { 
-        color: black;
         padding-bottom: 3rem;
         padding-top: 3rem;
         font-weight: bold;
@@ -250,7 +270,6 @@ ul {
 
 @media(max-width: 1024px) {
     #textMoving h3 { 
-        color: black;
         padding-bottom: 3rem;
         padding-top: 1.5rem;
         font-weight: bold;
@@ -260,22 +279,10 @@ ul {
 
 @media(max-width: 768px) {
     #textMoving h3 { 
-        color: black;
         padding-bottom: 2rem;
         padding-top: 2rem;
         font-weight: bold;
         font-size: 2rem;
-    }
-}
-
-
-@media(max-width: 768px) {
-    #footerP p {
-        color: rgb(129, 1, 1);
-        font-weight:500;
-        font-size: 1rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
     }
 }
 
