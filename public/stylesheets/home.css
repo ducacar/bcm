@@ -21,11 +21,6 @@ p {
     font-size: 2rem;
 }  
 
-.btn-danger, .btn-danger:active, .btn-danger:visited {
-    background-color: rgb(129, 1, 1) !important;
-    border-color: rgb(129, 1, 1) !important;
-    margin-bottom: 1rem;
-}
 
 
 #fadingAff {
@@ -68,3 +63,9 @@ p {
     }
 }
 
+#TransBtn {
+    color: rgb(129, 1, 1);
+    font-weight: bold;
+    text-shadow: 2rem;
+    background-color: white;
+}

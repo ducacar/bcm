@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light floating-manu">
+    <nav class="navbar floating-manu">
         <div class="collapse navbar-collapse d-flex d-none d-lg-block" id="navLink">
             <div>
                 <a class="nav-link btn btn-lg" href="#home"><i class="bi bi-house-door"></i><span>Home</span></a>
@@ -65,6 +65,9 @@
         <div class="container-fluid d-flex flex-column text-center px-0">          
             <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004892/BCM/poku%C5%A1aj_yqpzie-min_tageli_iasjnt.png" alt="trucks">
         </div>
+        <div>
+            <img id="gap" class="img-fluid d-flex d-none d-lg-block" src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628176247/BCM/poku%C5%A1aj_v7nhlv.jpg" alt="gap">
+        </div> 
     </section>   
     <section class="container-fluid px-0">
         <div class="row align-items-center">
@@ -96,70 +99,73 @@
     <div>
         <img id="gap" class="img-fluid d-flex d-none d-lg-block" src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628176247/BCM/poku%C5%A1aj_v7nhlv.jpg" alt="gap">
     </div>
-    <section  class="container-fluid px-0 mt-5">
-        <div id="textMoving" class="row">
-            <div>
-                <h3 id="request" class="text-center"><i class="bi bi-telephone"></i> Transport request</h3>
-            </div>
-            <div class="col-md-12">
-                <div class="col-md-12 align-items-center text-center mt-5">
-                    <ul>
-                        <li><p>*Please fill in all the required fields! </p></li>
-                        <li><p>IMPORTANT!</p></li>
-                        <li><p>We do not use databases and the data you enter will be used solely for better communication with clients.</p></li>
-                    </ul>
-                </div>                
-            </div>
-            <div  class="col-md-12 mt-5">
-                <div class="input-group justify-content-center">
-                    <div class="form-container container-fluid d-flex flex-column text-center">
-                        <form id="form" class="contact-form" class="row needs-validation" novalidate>
-                            <div class="form-row container d-flex flex-column">
-                                <div class="col-lg-5 align-self-center">
-                                    <input class="form-control" type="text" id="company" name="contact[company]"
-                                        required>
-                                    <label for="company" class="form-label">*Full name or company name</label>
+    <h3 id="request" class="text-center"><i class="bi bi-telephone"></i> Transport request</h3>
+    <section id="formLook">
+        <div class="container-fluid px-0">
+            <div id="textMoving" class="row align-self-center">
+                <div class="col-md-6 mt-5 text-start justify-content-center">
+                    <h1>We deliver <br> on our promises!</h1>                   
+                </div>
+                <div class="col-md-6 mt-5">
+                    <div class="input-group justify-content-center">
+                        <div class="form-container container-fluid d-flex flex-column text-center">
+                            <form id="form" class="contact-form" class="row needs-validation" novalidate>
+                                <div class="form-row container d-flex flex-column">
+                                    <div class="col-lg-5 align-self-center mb-4">
+                                        <ul>
+                                            <li><h4>*Please fill in all the required fields!</h4></li>
+                                            <li><h4>IMPORTANT!</h4></li>
+                                            <li><h4>We do not use databases and the data you enter will be used solely for better communication with clients.</h4></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-5 align-self-center mb-4">
+                                        <input class="form-control" type="text" id="company" placeholder="*Full name or company name" name="contact[company]"
+                                            required>
+                                      
+                                    </div>
+                                    <div class="col-lg-5 align-self-center mb-4">
+                                        <input class="form-control" type="email" id="email" placeholder="*Email" name="contact[email]" required>
+                                   
+                                    </div>
+                                    <div class="col-lg-5 align-self-center mb-4">
+                                        <input class="form-control" type="number" step="0.01" id="number" placeholder="*Phone number" name="contact[number]"required>
+                               
+                                    </div>
+                                    <div class="col-lg-5 align-self-center mb-4">
+                                        <input class="form-control" type="text" id="subject" placeholder="Subject" name="contact[subject]"required>
+                                      
+                                    </div>
+                                    <div class="col-lg-5 align-self-center">
+                                        <h4  id="transport">Transport:</h4>
+                                    </div>
+                                    
+                                    <div class="col-lg-5 align-self-center mb-4">
+                                        <input class="form-control" type="text" id="from" placeholder="*From" name="contact[from]" required>
+                                       
+                                    </div>
+                                    <div class="col-lg-5 align-self-center mb-4">
+                                        <input class="form-control" type="text" id="to" placeholder="*To" name="contact[to]" required>
+                                      
+                                    </div>
+                                    <div class="col-lg-5 align-self-center mb-4">
+                                   
+                                        <textarea  class="form-control" id="message" cols="36" rows="8" placeholder="*Shipment description" name="contact[message]"
+                                            required></textarea>
+                                    </div>
+                                    <div class="col-lg-5 align-self-center mb-5">
+                                        <div class="form group col-md-12 text-center">
+                                            <button class="btn btn-lg btn-danger" type="submit" id="submit" value="Send Message"
+                                                disabled>Send request</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-lg-5 align-self-center">
-                                    <input class="form-control" type="email" id="email" name="contact[email]" required>
-                                    <label for="email" class="form-label">*Email</label>
-                                </div>
-                                <div class="col-lg-5 align-self-center">
-                                    <input class="form-control" type="number" step="0.01" id="number" name="contact[number]"
-                                        required>
-                                    <label for="number" class="form-label">*Telephone number</label>
-                                </div>
-                                <div class="col-lg-5 align-self-center">
-                                    <input class="form-control" type="text" id="subject" name="contact[subject]"
-                                        required>
-                                    <label for="subject" class="form-label">*Subject</label>
-                                </div>
-                                <p id="transport" class="align-self-center">Transport:</p>
-                                <div class="col-lg-5 align-self-center">
-                                    <input class="form-control" type="text" id="from" name="contact[from]" required>
-                                    <label for="from" class="form-label">*From</label>
-                                </div>
-                                <div class="col-lg-5 align-self-center">
-                                    <input class="form-control" type="text" id="to" name="contact[to]" required>
-                                    <label for="to" class="form-label">*To</label>
-                                </div>
-                            </div>
-                            <div class="form-row mt-4 mb-4">
-                                <label for="message" class="form-label">*Shipment description</label>
-                                <textarea class="form-control" id="message" cols="36" rows="8" name="contact[message]"
-                                    required></textarea>
-                            </div>
-                            <div class="form-row mb-4">
-                                <div class="form group col-md-12 text-center">
-                                    <button class="btn btn-lg btn-danger" type="submit" id="submit" value="Send Message"
-                                        disabled>Send request</button>
-                                </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        
     </section>
 </div>
 <div id="textMoving" class="row">
@@ -197,14 +203,13 @@
                 <div class="row">
                     <div class="col-6 d-flex flex-column mt-4 d-flex align-items-center">
                         <a href="https://www.linkedin.com/company/bcmtransportandlogistics/"> <button
-                                class="btn btn-danger" aria-label="linkedin">
-                                <h2><i class="bi bi-linkedin" style="font: size 2rem;"></i></h2>
+                                class="btn" aria-label="linkedin">
+                                <h2><i class="bi bi-linkedin"></i></h2>
                             </button></a>
                     </div>
                     <div class="col-6 d-flex flex-column mt-4 d-flex  align-items-center">
-                        <a href="https://www.instagram.com/bcm_transportandlogistic/"> <button class="btn btn-danger" aria-label="instagram">
-                                <h2 class="justify-content-center"><i class="bi bi-instagram"
-                                        style="font: size 2rem;"></i></h2>
+                        <a href="https://www.instagram.com/bcm_transportandlogistic/"> <button class="btn" aria-label="instagram">
+                                <h2><i class="bi bi-instagram"></i></h2>
                             </button></a>
                     </div>
                 </div>
@@ -215,13 +220,13 @@
     <button onclick="topFunction()" id="myBtn"title="Go to top"><i class="bi bi-chevron-double-up"></i></button>
 
     <footer class="mt-auto">
-        <div id="footerP" class="text-center container fluid">
-            <div class="row justify-content-center">
+        <div id="footerP" class="container fluid">
+            <div class="row align-items-center text-center justify-content-center">
                 <div class="col-sm-6">
-                    <p>&copy; 2021 BCM transport and logistics</p>
+                    <p>&copy; 2021 BCM Transport and Logistics</p>
                 </div>
                 <div class="col-sm-6 text-muted">
-                    <p>Design and Development by<a href="https://www.linkedin.com/in/du%C5%A1an-gardinova%C4%8Dki-a06128aa/"class="text-reset"> Dušan Gardinovački</a></p>     
+                    <p>Design and Development by <a href="https://www.linkedin.com/in/du%C5%A1an-gardinova%C4%8Dki-a06128aa/"class="text-reset">Dušan Gardinovački</a></p>     
                 </div>
             </div>
         </div>            
