@@ -4,7 +4,15 @@ body {
     position: relative;
 }
 
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+    background-color: rgb(129, 1, 1) !important;
+    border:0rem !important
+}
 
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited:hover {
+    background-color: gray !important;
+    border:0rem !important
+}
 
 h6 {
     color: rgb(129, 1, 1);
@@ -19,7 +27,7 @@ h5 {
 h4 {
     font-weight: bolder;
     color: rgb(129, 1, 1);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 
@@ -64,6 +72,7 @@ a span {
     font-size: 1.5rem;
     margin-top: 1rem;
     margin-left: 0.5rem;
+    font-weight: 500;
 
 }
  
@@ -77,9 +86,7 @@ a:hover span {
 
 .nav-link.btn.btn-lg:hover{ 
     background-color: transparent;
-    color: rgb(129, 1, 1);
-    border-radius: 0%;
-    
+    color: rgb(129, 1, 1);    
 }  
 
 .nav-link.btn.btn-lg {
@@ -87,8 +94,6 @@ a:hover span {
     color: rgb(129, 1, 1);
     font-weight: 700;
     background-color: transparent;
-    border-radius: 0%;
- 
 }
 
 .nav-link {
@@ -98,6 +103,7 @@ a:hover span {
 .bi.bi-house-door-fill {
     color: rgb(129, 1, 1);
     background-color: white;
+    border-radius: 5px;
 }
 
 .bi.bi-house-door-fill:hover {
@@ -108,6 +114,7 @@ a:hover span {
 .bi.bi-file-earmark-person {
     color: rgb(129, 1, 1);
     background-color: white;
+    border-radius: 5px;
 }
 
 .bi.bi-file-earmark-person:hover {
@@ -115,12 +122,13 @@ a:hover span {
     background-color:rgb(129, 1, 1) ;
 }
 
-.bi.bi-truck-flatbed {
+.bi.bi-truck {
     color: rgb(129, 1, 1);
     background-color: white;
+    border-radius: 5px;
 }
 
-.bi.bi-truck-flatbed:hover {
+.bi.bi-truck:hover {
     color: white;
     background-color:rgb(129, 1, 1) ;
 }
@@ -128,6 +136,7 @@ a:hover span {
 .bi.bi-globe {
     color: rgb(129, 1, 1);
     background-color: white;
+    border-radius: 5px;
 }
 
 .bi.bi-globe:hover {
@@ -138,6 +147,7 @@ a:hover span {
 .bi.bi-telephone-fill {
     color: rgb(129, 1, 1);
     background-color: white;
+    border-radius: 5px;
 }
 
 .bi.bi-telephone-fill:hover {
@@ -232,7 +242,7 @@ footer {
 }
 
 #gap {
-    height: 16rem;
+    height: 17rem;
 }
 
 #TransBtn {
@@ -246,7 +256,7 @@ footer {
 #transport {
     color: rgb(129, 1, 1);
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 #TransBtn:hover {
