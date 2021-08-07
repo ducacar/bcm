@@ -9,11 +9,6 @@ body {
     border:0rem !important
 }
 
-.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited:hover {
-    background-color: gray !important;
-    border:0rem !important
-}
-
 h6 {
     color: rgb(129, 1, 1);
     margin-bottom: 0rem;
@@ -48,7 +43,7 @@ h1 {
     color: white;
     font-weight: bolder;
     font-size: 5rem;
-    margin-top: 18rem;
+    margin-top: 15rem;
     margin-left: 15rem;
 }
 
