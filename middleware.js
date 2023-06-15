@@ -5,7 +5,7 @@ const contactSchema = Joi.object({
   company: Joi.string().required(),
   email: Joi.string().email().required(),
   number: Joi.string().required(),
-  subject: Joi.string(),
+  subject: Joi.string().required(),
   from: Joi.string().required(),
   to: Joi.string().required(),
   message: Joi.string().required(),
