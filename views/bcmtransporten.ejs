@@ -1,258 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Main focus of the BCM transport and logistics is the express transport of goods in the European Union and the Balkans.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Main focus of the BCM transport and logistics is the express transport of goods in the European Union and the Balkans."
+    />
     <title>bcmtransport</title>
-    <link rel="icon" type="image/png"
-        href="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627057367/BCM/favicon_uqkrmz.ico"
-        crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="stylesheets/bcmtransportrs.css">
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627057367/BCM/favicon_uqkrmz.ico"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="stylesheets/bcmtransportrs.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <nav class="navbar floating-manu">
-        <div class="collapse navbar-collapse d-flex d-none d-lg-block" id="navLink">
-            <div>
-                <div>
-                    <a class="nav-link btn btn-lg shadow-none" href="#home"><i class="bi bi-house-door-fill" style="font-size: 2.5rem;"></i><span>HOME</span></a>
-                </div>
-                <div>
-                    <a class="nav-link btn btn-lg shadow-none" href="#about"><i class="bi bi-file-earmark-person" style="font-size: 2.5rem;"></i><span>ABOUT</span></a>
-                </div>
-                <div>
-                    <a class="nav-link btn btn-lg shadow-none" href="#service"><i class="bi bi-truck" style="font-size: 2.5rem;"></i><span>SERVICE</span></a>
-                </div>
-                <div>
-                    <a class="nav-link btn btn-lg shadow-none" href="#request"><i class="bi bi-globe" style="font-size: 2.5rem;"></i><span>REQUEST</span></a>
-                </div>
-                <div>
-                    <a class="nav-link btn btn-lg shadow-none" href="#contact"><i class="bi bi-telephone-fill" style="font-size: 2.5rem;"></i><span>CONTACT</span></a>
-                </div>               
-            </div>
-        </div>      
-    </nav>
-    <div id="mobNav" class="container-fluid justify-content-center d-flex d-lg-none px-0">
-        <a class="nav-link btn btn-danger" href="#about">About</a>
-        <a class="nav-link btn btn-danger" href="#service">Service</a>
-        <a class="nav-link btn btn-danger" href="#request">Transport request</a>
-        <a class="nav-link btn btn-danger" href="#contact">Contact</a>
-    </div>
-    <section>
-        <div id="home" class="header-container text-center container-fluid d-flex d-none d-lg-block">
-            <div class="row justify-content-center">
-                <div class="col-lg-2">
-                   <a href="/"> <img id="topImg" src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627123421/BCM/cropped-bmc_logo1-2-5_wyctla-min_jym4lq.png" alt="logo"></a>
-                </div>
-                <div class="col-lg-5 mt-2">
-                    <h6><i class="bi bi-house-door"></i> Address: Antona Čehova 30/13, 21000 Novi Sad, Serbia</h6>
-                </div>
-                <div class="col-lg-5 mt-2">
-                    <h6><i class="bi bi-telephone"></i>Contact phone: +381 64 300 60 61 Email: office@bcmtransport.rs</h6>
-                </div>
-            </div>
-        </div>
-        <div class="card d-none d-lg-block">
-            <div class="card-body position-absolute top-0 end-0">              
-                <div class="text-center">
-                    <a href="#request" id="TransBtn" class="btn btn-lg rounded-pill"><i class="bi bi-globe2"></i> Transport request</a>
-                </div>
-
-            </div>
-        </div>
-    </section>    
-    <section>
-        <div class="container-fluid d-flex flex-column text-center px-0">          
-            <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004892/BCM/poku%C5%A1aj_yqpzie-min_tageli_iasjnt.png" alt="trucks">
-        </div>
+      <div
+        class="collapse navbar-collapse d-flex d-none d-lg-block"
+        id="navLink"
+      >
         <div>
-            <img id="gap" class="img-fluid d-flex d-none d-lg-block" src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628176247/BCM/poku%C5%A1aj_v7nhlv.jpg" alt="gap">
-        </div> 
-    </section>   
-    <section class="container-fluid px-0">
-        <div class="row align-items-center">
-                <div class="col-md-6 pt-5 order-2 order-md-1">
-                    <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004892/BCM/elevate-GAdkOpqbTfo-unsplash-min_ffovuf-2_mkks8p.jpg"
-                        class="img-fluid" alt="loading trucks">
-                </div>
-                <div id="textMoving" class="col-md-6 text-start justify-content-center order-1 order-md-2">
-                    <h3 id="about"><i class="bi bi-file-person"></i> About us</h3>
-                    <p>BCM Transport and Logistics is a company founded in 2017. At the very beginning, the company was exclusively engaged in consulting in the field of road transport. Over time, the business has expanded, so that BCM Transport and Logistic now also provides transport services. The founder of BCM Transport and Logistics - Bojan Miletić, graduated traffic engineer - has gained vast experience in various freight forwarding operations while cooperating with entities from various business spheres. For this reason, by hiring BCM Transport and Logistics, clients count on accuracy, speed, efficiency, and professionalism.</p>
-                </div>
-            </div>
-    </section>
-    <div>
-        <img id="gap" class="img-fluid d-flex d-none d-lg-block" src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628176247/BCM/poku%C5%A1aj_v7nhlv.jpg" alt="gap">
-    </div> 
-    <section class="container-fluid px-0"> 
-        <div class="row align-items-center">
-            <div id="textMoving" class="col-md-6 text-start justify-content-center">
-                    <h3 id="service"><i class="bi bi-truck-flatbed"></i> Service</h3>
-                    <p>The main focus of the company is the express transport of goods in the European Union and the Balkans. Although we are young, in a short time, clients from the EU and Serbia have recognized us as a safe and reliable company that provides transportation services at the highest level, without delaying delivery deadlines. Our clients are mainly companies from the automotive industry, which need reliable and fast transport of goods, without delays. To ensure this, we are constantly expanding our fleet. All vehicles in the fleet are modernly equipped for the transport of goods in international traffic. Vehicles are available 24 hours a day, 365 days a year. We are ready to help you and meet all your requirements within 120 minutes. BCM Transport and Logistics is constantly growing and our goal is to build a dynamic, healthy, and successful company that will be recognized as a leader in the market of transport services - a company that is superior in all forms of express delivery and its business. </p>
-                </div>
-                <div class="col-md-6 pt-5">
-                    <img src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004891/BCM/scott-graham-5fNmWej4tAA-unsplash_1_-min_bwywsd_tkqtue.jpg"
-                        class="img-fluid" alt="office">
-                </div>
-            </div>
-    </section>
-    <div>
-        <img id="gap" class="img-fluid d-flex d-none d-lg-block" src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628176247/BCM/poku%C5%A1aj_v7nhlv.jpg" alt="gap">
-    </div>
-    
-    <section id="formLook">
-        <h3 id="request" class="text-center"><i class="bi bi-telephone"></i> Transport request</h3>
-        <div class="container-fluid px-0">
-            <div id="textMoving" class="row align-self-center">
-                <div class="col-md-7 mt-5 text-start justify-content-center">
-                    <h1>We deliver <br> on our promises!</h1>                   
-                </div>
-                <div class="col-md-5">
-                    <div class="input-group justify-content-center">
-                        <div class="form-container container-fluid d-flex flex-column text-center">
-                            <form id="form" class="contact-form" class="row needs-validation" novalidate>
-                                <div class="form-row container d-flex flex-column">
-                                    <div class="col-lg-5 align-self-center mb-4">
-                                        <ul>
-                                            <li><h4>*Please fill in all the required fields!</h4></li>
-                                            <li><h4>IMPORTANT!</h4></li>
-                                            <li><h4>We do not use databases and the data you enter will be used solely for better communication with clients.</h4></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-5 align-self-center mb-2">
-                                        <input class="form-control" type="text" id="company" placeholder="*Full name or company name" name="contact[company]"
-                                            required>
-                                      
-                                    </div>
-                                    <div class="col-lg-5 align-self-center mb-2">
-                                        <input class="form-control" type="email" id="email" placeholder="*Email" name="contact[email]" required>
-                                   
-                                    </div>
-                                    <div class="col-lg-5 align-self-center mb-2">
-                                        <input class="form-control" type="number" step="0.01" id="number" placeholder="*Phone number" name="contact[number]"required>
-                               
-                                    </div>
-                                    <div class="col-lg-5 align-self-center mb-2">
-                                        <input class="form-control" type="text" id="subject" placeholder="Subject" name="contact[subject]"required>
-                                      
-                                    </div>
-                                    <div class="col-lg-5 align-self-center">
-                                        <h4  id="transport">Transport:</h4>
-                                    </div>
-                                    
-                                    <div class="col-lg-5 align-self-center mb-2">
-                                        <input class="form-control" type="text" id="from" placeholder="*From" name="contact[from]" required>
-                                       
-                                    </div>
-                                    <div class="col-lg-5 align-self-center mb-2">
-                                        <input class="form-control" type="text" id="to" placeholder="*To" name="contact[to]" required>
-                                      
-                                    </div>
-                                    <div class="col-lg-5 align-self-center mb-2">
-                                   
-                                        <textarea  class="form-control" id="message" cols="36" rows="8" placeholder="*Shipment description" name="contact[message]"
-                                            required></textarea>
-                                    </div>
-                                    <div class="col-lg-5 align-self-center mb-5">
-                                        <div class="form group col-md-12 text-center">
-                                            <button class="btn btn-lg btn-danger" type="submit" id="submit" value="Send Message"
-                                                disabled>Send request</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div>
+            <a class="nav-link btn btn-lg" href="#home"
+              ><i class="bi bi-house-door-fill"></i><span>HOME</span></a
+            >
+          </div>
+          <div>
+            <a class="nav-link btn btn-lg" href="#about"
+              ><i class="bi bi-file-earmark-person"></i><span>ABOUT</span></a
+            >
+          </div>
+          <div>
+            <a class="nav-link btn btn-lg" href="#service"
+              ><i class="bi bi-truck"></i><span>SERVICE</span></a
+            >
+          </div>
+          <div>
+            <a class="nav-link btn btn-lg" href="#request"
+              ><i class="bi bi-globe" style="font-size: 2.5rem"></i
+              ><span>REQUEST</span></a
+            >
+          </div>
+          <div>
+            <a class="nav-link btn btn-lg" href="#contact"
+              ><i class="bi bi-telephone-fill"></i><span>CONTACT</span></a
+            >
+          </div>
         </div>
-        
+      </div>
+    </nav>
+    <div
+      id="mobNav"
+      class="container-fluid justify-content-center d-flex d-lg-none px-0"
+    >
+      <a class="nav-link btn btn-danger" href="#about">About</a>
+      <a class="nav-link btn btn-danger" href="#service">Service</a>
+      <a class="nav-link btn btn-danger" href="#request">Transport</a>
+      <a class="nav-link btn btn-danger" href="#contact">Contact</a>
+    </div>
+    <section>
+      <header
+        id="home"
+        class="header-container container-fluid d-flex d-none d-lg-block"
+      >
+        <div class="row justify-content-around">
+          <div class="col-lg-2">
+            <a href="/">
+              <img
+                id="topImg"
+                src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1627123421/BCM/cropped-bmc_logo1-2-5_wyctla-min_jym4lq.png"
+                alt="logo"
+            /></a>
+          </div>
+          <div class="col-lg-5 mt-2">
+            <h6>
+              <i class="header-icon bi bi-house-door"></i> Address: Petra
+              Petrovića 30/12, 21000 Novi Sad, Serbia
+            </h6>
+          </div>
+          <div class="col-lg-5 mt-2">
+            <h6>
+              <i class="header-icon bi bi-telephone"></i>Contact phone: +381 00
+              00 00 00 Email: office@gmail.com
+            </h6>
+          </div>
+        </div>
+      </header>
     </section>
-</div>
-<div id="textMoving" class="row">
-    <div class="align-items-center text-center mt-5">
+      <div class="card d-none d-lg-block">
+        <div class="card-body position-absolute top-0 end-0">
+          <div>
+            <a href="#request" id="TransBtn" class="btn btn-lg"
+              ><i class="btn-icon bi bi-globe2"></i> Transport request</a
+            >
+          </div>
+        </div>
+      </div>
+    
+    <section>
+      <div class="container-fluid d-flex flex-column px-0">
+        <img
+          src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004892/BCM/poku%C5%A1aj_yqpzie-min_tageli_iasjnt.png"
+          alt="trucks"
+        />
+      </div>
+      <div></div>
+    </section>
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-md-6 pt-5 order-2 order-md-1">
+          <img
+            src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004892/BCM/elevate-GAdkOpqbTfo-unsplash-min_ffovuf-2_mkks8p.jpg"
+            class="img-fluid"
+            alt="loading trucks"
+          />
+        </div>
+        <div
+          id="textMoving"
+          class="col-md-6 text-start justify-content-center order-1 order-md-2"
+        >
+          <h3 id="about"><i class="p-icon bi bi-file-person"></i> About us</h3>
+          <p class="p-text">
+            BCM Transport and Logistics is a company founded in 2017. At the
+            very beginning, the company was exclusively engaged in consulting in
+            the field of road transport. Over time, the business has expanded,
+            so that BCM Transport and Logistic now also provides transport
+            services. The founder of BCM Transport and Logistics - Petar
+            Petrovic, graduated traffic engineer - has gained vast experience in
+            various freight forwarding operations while cooperating with
+            entities from various business spheres. For this reason, by hiring
+            BCM Transport and Logistics, clients count on accuracy, speed,
+            efficiency, and professionalism.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div></div>
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div id="textMoving" class="col-md-6 text-start justify-content-center">
+          <h3 id="service">
+            <i class="p-icon bi bi-truck-flatbed"></i> Service
+          </h3>
+          <p class="p-text">
+            The main focus of the company is the express transport of goods in
+            the European Union and the Balkans. Although we are young, in a
+            short time, clients from the EU and Serbia have recognized us as a
+            safe and reliable company that provides transportation services at
+            the highest level, without delaying delivery deadlines. Our clients
+            are mainly companies from the automotive industry, which need
+            reliable and fast transport of goods, without delays. To ensure
+            this, we are constantly expanding our fleet. All vehicles in the
+            fleet are modernly equipped for the transport of goods in
+            international traffic. Vehicles are available 24 hours a day, 365
+            days a year. We are ready to help you and meet all your requirements
+            within 120 minutes. BCM Transport and Logistics is constantly
+            growing and our goal is to build a dynamic, healthy, and successful
+            company that will be recognized as a leader in the market of
+            transport services - a company that is superior in all forms of
+            express delivery and its business.
+          </p>
+        </div>
+        <div class="col-md-6 pt-5">
+          <img
+            src="https://res.cloudinary.com/dgwtmmyl7/image/upload/v1628004891/BCM/scott-graham-5fNmWej4tAA-unsplash_1_-min_bwywsd_tkqtue.jpg"
+            class="img-fluid"
+            alt="office"
+          />
+        </div>
+      </div>
+    </section>
+    <div></div>
+
+    <section id="formLook">
+      <h3 id="request">
+        <i class="p-icon bi bi-globe2"></i> Transport request
+      </h3>
+      <div class="container-fluid px-0">
+        <div id="textMoving" class="row align-self-center">
+          <div class="col-md-7 text-start justify-content-center">
+            <h1>
+              We deliver <br />
+              on our promises!
+            </h1>
+          </div>
+          <div class="col-md-5">
+            <div class="input-group justify-content-center">
+              <div
+                class="form-container container-fluid d-flex flex-column text-center"
+              >
+                <form
+                  id="form"
+                  class="contact-form"
+                  
+                >
+                  <div class="form-row container d-flex flex-column">
+                    <div class="form-wrp">
+                      <div class="col-lg-5 align-self-center mb-4">
+                        <p>
+                          <strong
+                            >*Please fill in all the required fields.</strong
+                          >
+                        </p>
+                        <p>
+                          <strong>IMPORTANT:</strong>
+                        </p>
+                        <p>
+                          We do not use databases, and the data you enter will
+                          be used solely for better communication with clients.
+                        </p>
+                      </div>
+
+                      <div class="col-lg-5 align-self-center mb-2">
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="company"
+                          placeholder="*Full name or company name"
+                          name="contact[company]"
+                          required
+                        />
+                      </div>
+                      <div class="col-lg-5 align-self-center mb-2">
+                        <input
+                          class="form-control"
+                          type="email"
+                          id="email"
+                          placeholder="*Email"
+                          name="contact[email]"
+                          required
+                        />
+                      </div>
+                      <div class="col-lg-5 align-self-center mb-2">
+                        <input
+                          class="form-control"
+                          type="number"
+                          step="0.01"
+                          id="number"
+                          placeholder="*Phone number"
+                          name="contact[number]"
+                          required
+                        />
+                      </div>
+                      <div class="col-lg-5 align-self-center mb-2">
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="subject"
+                          placeholder="Subject"
+                          name="contact[subject]"
+                        />
+                      </div>
+                      <div class="col-lg-5 align-self-center">
+                        <h4 id="transport">Transport:</h4>
+                      </div>
+
+                      <div class="col-lg-5 align-self-center mb-2">
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="from"
+                          placeholder="*From"
+                          name="contact[from]"
+                          required
+                        />
+                      </div>
+                      <div class="col-lg-5 align-self-center mb-2">
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="to"
+                          placeholder="*To"
+                          name="contact[to]"
+                          required
+                        />
+                      </div>
+                      <div class="col-lg-5 align-self-center mb-2">
+                        <textarea
+                          class="form-control"
+                          id="message"
+                          cols="36"
+                          rows="8"
+                          placeholder="*Shipment description"
+                          name="contact[message]"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="col-lg-5 align-self-center mb-5">
+                        <div class="form group col-md-12 text-center">
+                          <button
+                            class="btn btn-lg btn-danger"
+                            type="submit"
+                            id="submit"
+                            value="Send Message"
+                          >
+                            Send request
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="textMoving" class="row">
+      <div class="align-items-center text-center mt-5">
         <div class="col">
-            <h3 id="contact">Contact</h3>
+          <h3 id="contact"><i class="p-icon bi bi-telephone"></i> Contact</h3>
         </div>
         <div class="col-sm-12">
-            <div class="map-responsive">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.073317478413!2d19.827590715761463!3d45.24631015597654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b103ebb7f4de7%3A0x3e641d6bdd60f3fe!2sAntona%20%C4%8Cehova%2030%2C%20Novi%20Sad%2021000!5e0!3m2!1sen!2srs!4v1628158484769!5m2!1sen!2srs" width="1500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+          <div class="map-responsive">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.073317478413!2d19.827590715761463!3d45.24631015597654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b103ebb7f4de7%3A0x3e641d6bdd60f3fe!2sAntona%20%C4%8Cehova%2030%2C%20Novi%20Sad%2021000!5e0!3m2!1sen!2srs!4v1628158484769!5m2!1sen!2srs"
+              width="1500"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-    <div class="container-fluid px-0">
-        <div class="row align-items-center">
-            <div class="col-lg-4 text-center justify-content-center">
-                <h3>Address</h3>
-                <h5>Antona Čehova 30/13 <br> 21000 Novi Sad, Serbia </h5>
-            </div>
-            <div class="col-lg-4 text-center justify-content-center">
-                <h3>Working hours</h3>
-                <h5> 8 am - 5 pm <br> (Monday - Friday)</h5>
-            </div>
-            <div class="col-lg-4 text-center justify-content-center">
-                <h3>Contacts</h3>
-                <h5>Phone number: +381 64 300 60 61 <br> Email: office@bcmtransport.rs</h5>
-            </div>
+    <div class="container-fluid ">
+      <div class="row align-items-center">
+        <div class="col-lg-4 text-center justify-content-center">
+          <h3>Address</h3>
+          <h5>
+            Petra Petrovića 30/12 <br />
+            21000 Novi Sad, Serbia
+          </h5>
         </div>
-    </div>        
-    
+        <div class="col-lg-4 text-center justify-content-center">
+          <h3>Working hours</h3>
+          <h5>
+            8 am - 5 pm <br />
+            (Monday - Friday)
+          </h5>
+        </div>
+        <div class="col-lg-4 text-center justify-content-center">
+          <h3>Contacts</h3>
+          <h5>
+            Phone number: +381 00 00 00 00 <br />
+            Email: office@gmail.com
+          </h5>
+        </div>
+      </div>
+    </div>
+
     <section class="container fluid">
-        <div class="d-flex flex-column  mb-4 d-flex justify-content-center align-items-center">
-            <span class="border-top border-light border-5">
-                <div class="row">
-                    <div class="col-6 d-flex flex-column mt-4 d-flex align-items-center">
-                        <a href="https://www.linkedin.com/company/bcmtransportandlogistics/"> <button
-                                class="btn shadow-none" aria-label="linkedin">
-                                <h2><i class="bi bi-linkedin"></i></h2>
-                            </button></a>
-                    </div>
-                    <div class="col-6 d-flex flex-column mt-4 d-flex  align-items-center">
-                        <a href="https://www.instagram.com/bcm_transportandlogistic/"> <button class="btn shadow-none" aria-label="instagram">
-                                <h2><i class="bi bi-instagram"></i></h2>
-                            </button></a>
-                    </div>
-                </div>
-            </span>
-        </div>
+      <div
+        class="d-flex flex-column mb-4 d-flex justify-content-center align-items-center"
+      >
+        <span class="border-top border-light border-5">
+          <div class="row">
+            <div
+              class="col-6 d-flex flex-column mt-4 d-flex align-items-center"
+            >
+              <a href="#">
+                <button class="btn shadow-none" aria-label="linkedin">
+                  <h2><i class="bi bi-linkedin"></i></h2></button
+              ></a>
+            </div>
+            <div
+              class="col-6 d-flex flex-column mt-4 d-flex align-items-center"
+            >
+              <a href="#">
+                <button class="btn shadow-none" aria-label="instagram">
+                  <h2><i class="bi bi-instagram"></i></h2></button
+              ></a>
+            </div>
+          </div>
+        </span>
+      </div>
     </section>
 
-    <button onclick="topFunction()" id="myBtn"title="Go to top"><i class="bi bi-chevron-double-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="bi bi-chevron-double-up"></i>
+    </button>
 
-    <footer class="mt-auto">
-        <div id="footerP" class="container fluid">
-            <div class="row align-items-center text-center justify-content-center">
-                <div class="col-sm-6">
-                    <p>&copy; 2021 BCM Transport and Logistics</p>
-                </div>
-                <div class="col-sm-6 text-muted">
-                    <p>Design and Development by <a href="https://www.linkedin.com/in/du%C5%A1an-gardinova%C4%8Dki-a06128aa/"class="text-reset">Dušan Gardinovački</a></p>     
-                </div>
-            </div>
-        </div>            
+    <footer class="bg-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 d-flex align-items-center">
+            <p class="footerP text-muted mb-0">
+              &copy; 2021 BCM Transport and Logistics
+            </p>
+          </div>
+          <div class="col-sm-6 d-flex align-items-center justify-content-end">
+            <p class="footerP text-muted mb-0">
+              Design and Development by
+              <a
+                href="https://www.linkedin.com/in/du%C5%A1an-gardinova%C4%8Dki-a06128aa/"
+                class="text-reset"
+                >Dušan Gardinovački</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
-
 
     <script src="javascripts/scroll.js"></script>
     <script type="module" src="javascripts/index.js"></script>
-    <script src="javascripts/contact.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
-        crossorigin="anonymous"></script>
-</body>
-
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
