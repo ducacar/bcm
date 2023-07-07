@@ -178,6 +178,8 @@ h3 {
   font-size: 17px;
   color: rgb(122, 122, 122);
   text-align: justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* TRANSPORT REQ */
