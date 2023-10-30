@@ -1,4 +1,4 @@
-const Joi = require('joi');
+const Joi = require("joi");
 const { ExpressError } = require("./utils/ExpressError");
 
 const contactSchema = Joi.object({
